@@ -9,6 +9,23 @@ a{
 }
 ul,ol{
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header{border-bottom: 1px solid #E7E9FC;}
+.container{
+    width: 1158px;
+    padding:0 15px;
+    margin: 0 auto;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
 }
 .logo {
     color:  #4D5AE5;
@@ -18,7 +35,18 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
+display: inline-block;
+margin-bottom: 16px;
+
 }
+.nav-list{
+    display: flex; 
+    gap: 40px;
+
+}
+.adress-list{display: flex;
+gap: 40px;}
 .logo-part {
      color: #2E2F42;
 }
@@ -29,6 +57,9 @@ font-size: 16px;
 font-weight: 500;
 line-height:1.5;
 letter-spacing: 0.02em;
+padding-top: 24px ;
+padding-bottom: 24px ;
+display: block;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -36,6 +67,7 @@ letter-spacing: 0.02em;
 }
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 .address-link {
     color:  #434455;
@@ -56,7 +88,9 @@ text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+margin: 0 auto 48px auto;
+max-width: 496px;
 }
 .button { color:  #FFF;
     font-size: 16px;
@@ -64,7 +98,16 @@ letter-spacing: 0.02em
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color:  #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
+    display: block;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 48;
+    border: none;
+    
 }
 .button:hover,
 .button:focus{
@@ -75,6 +118,20 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background:  #404BBF;
 }
+.list{
+    display: flex;
+    align-items: center;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.gualities-list{
+    display: flex; 
+    gap: 24px;
+
+}
+.gualities{
+    width: calc(100%-72px)/4;
+}
 .tittle-second {
     color:  #2E2F42;
 text-align: center;
@@ -83,6 +140,7 @@ font-weight: 700;
 text-transform: capitalize;
 line-height: 1.11;
 letter-spacing: 0.02em;
+
 }
 .tittle {color:  #2E2F42;
     font-size: 20px;
@@ -99,11 +157,24 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.team{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 72px;
+}
+.team-list{
+    display: flex; 
+    gap: 24px;
+    justify-content: center;
+  list-style-type: none;
+}
 .logo-part-second{
     color: #F4F4FD;
 }
+
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .text-footer{
     color: #F4F4FD;
@@ -114,7 +185,29 @@ letter-spacing: 0.32px;
 }
 .section-team{
     background-color: #F4F4FD;
+    flex-shrink: 0;
+    padding: 120px 0;
 }
 .section-portfolio{background-color: #FFFFFF}
 .team-back{
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc ((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.worker{ padding: 32px 0;}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.portfolio-li{
+    width: calc(1158px-48px / 3);
+}
