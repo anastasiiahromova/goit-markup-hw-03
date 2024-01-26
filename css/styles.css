@@ -81,6 +81,7 @@ letter-spacing: 0.02em;
 }
 .section-button{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .tittle-first {
     color:#fff;
@@ -140,6 +141,7 @@ font-weight: 700;
 text-transform: capitalize;
 line-height: 1.11;
 letter-spacing: 0.02em;
+margin-bottom: 72px;
 
 }
 .tittle {color:  #2E2F42;
@@ -156,6 +158,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 }
 .team{
     display: flex;
@@ -188,7 +191,9 @@ letter-spacing: 0.32px;
     flex-shrink: 0;
     padding: 120px 0;
 }
-.section-portfolio{background-color: #FFFFFF}
+.section-portfolio{background-color: #FFFFFF
+    padding-top: 120px; 
+    padding-bottom: 120px; }
 .team-back{
     background-color: #FFFFFF;
     text-align: center;
@@ -210,4 +215,26 @@ letter-spacing: 0.32px;
 }
 .portfolio-li{
     width: calc(1158px-48px / 3);
+    
 }
+img {
+    display: block;
+  }
+  .second-section{
+    padding: 120px 0 120px;
+  }
+  .visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .portfolio-tittle{   padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;}
