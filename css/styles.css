@@ -251,11 +251,16 @@ img {
         letter-spacing: 0.32px;}
     
 .logo-footer{
-color:#4D5AE5;
-display:inline-block;
-margin-bottom: 16px;
-width: 44px;
-height: 21px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .logo-part-second{
     color: #F4F4FD;
